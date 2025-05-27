@@ -25,7 +25,7 @@ class BubbleSortStrategy(SortingStrategy):
     
 
 class Sorter:
-    def __init__(self, strategy: SortingStrategy):
+    def __init__(self, strategy):
         self.strategy = strategy
 
     def sort_data(self, data):
