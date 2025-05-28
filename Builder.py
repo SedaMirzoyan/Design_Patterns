@@ -1,6 +1,5 @@
 """
-Builder design pattern
-
+Builder design pattern:
 The goal of this design pattern is to separate 
 the construction of an object of its representation
 """
