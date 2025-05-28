@@ -8,7 +8,7 @@ class OldSystem:
     """
     Old system interface
     """
-    def specific_request(slef):
+    def specific_request(self):
         """
         Old method
 
@@ -22,7 +22,7 @@ class Target:
     """
     The new system interface
     """
-    def request(slef):
+    def request(self):
         """
         New method
 
@@ -37,6 +37,12 @@ class Adapter(Target):
     With the help of Adapter OldSystem and Target can work together
     """
     def __init__(self, old_system):
+        """
+        Initialize Adapter with old_system instance
+
+        Args:
+            old_system: Old system object
+        """
         self.old_system = old_system
 
     def request(self):
