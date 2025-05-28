@@ -64,7 +64,7 @@ class AnimalFactory:
             return None
         
 
-
+#create objects of dog and cat using the factory
 factory = AnimalFactory()
 dog = factory.create_animal("dog")
 cat = factory.create_animal("cat")
