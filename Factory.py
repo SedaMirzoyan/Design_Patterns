@@ -14,7 +14,7 @@ class Animal(ABC):
         pass
 
 
-class Dog:
+class Dog(Animal):
     """
     Implementation of a dog
     """
@@ -28,7 +28,7 @@ class Dog:
         return "I am dog"
 
 
-class Cat:
+class Cat(Animal):
     """
     Implementation of a cat
     """
