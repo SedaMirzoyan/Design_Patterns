@@ -96,5 +96,5 @@ cappuccino = MilkDecorator(coffee)
 print("cappuccino price :", cappuccino.price())
 
 #add sugar
-cappuccion = SugarDecorator(coffee)
-print("cappuccino with sugar price :", cappuccion.price())
+cappuccino_with_sugar = SugarDecorator(cappuccino)
+print("cappuccino with sugar price :", cappuccino_with_sugar.price())
